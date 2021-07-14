@@ -1,0 +1,662 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1150px;
+}
+
+.btn {
+    background-color: #E02C6D;
+    border: none;
+    color: white;
+    padding: 12px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all linear 0.5s;
+}
+
+
+/* common css end */
+
+
+/* header navigation part start */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 42px;
+    left: 0;
+}
+
+header .navigation nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navigation nav .fa-bars {
+    display: none;
+}
+
+header .navigation nav .menu-items {
+    display: flex;
+    align-items: center;
+}
+
+header .navigation nav .menu-items a {
+    display: inline-block;
+    margin-right: 36px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+header .navigation nav .login-signup .btn {
+    padding: 10px 25px;
+}
+
+.login-signup i {
+    margin-right: 8px;
+}
+
+
+/* header navigation part end */
+
+
+/* banner part start */
+
+#banner {
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 135px;
+    padding-bottom: 90px;
+}
+
+.banner-content-left-half {
+    padding-top: 80px;
+}
+
+.banner-content-left-half h1 {
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.banner-content-left-half i {
+    margin-left: 8px;
+    display: inline-block;
+    transition: all linear 0.5s;
+}
+
+.banner-content-left-half .btn:hover {
+    box-shadow: 0px 0px 5px 5px #e6d6db;
+}
+
+.banner-content-left-half .btn:hover i {
+    padding-left: 16px;
+}
+
+.banner-content-right-half {
+    padding-left: 10px;
+}
+
+.banner-content-right-half img {
+    width: 550px;
+    height: 438px;
+    cursor: pointer;
+    transition: all linear 0.5s;
+}
+
+.banner-content-right-half:hover img {
+    transform: skew(-10deg);
+}
+
+
+/* banner part end */
+
+
+/* players part strat */
+
+#football-players {
+    display: flex;
+    justify-content: center;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.players .player {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.players .player img {
+    width: 100%;
+    height: 256px;
+}
+
+.players .player h3 {
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.players .player p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    padding-bottom: 15px;
+}
+
+
+/* players part end */
+
+
+/* highlights copa america-2021 part start */
+
+#highlights-copa-america-2021 {
+    display: flex;
+    justify-content: center;
+}
+
+.highlights-copa-america-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 115px;
+    padding-bottom: 90px;
+}
+
+.highlights-copa-america-left-half {
+    padding-top: 80px;
+}
+
+.highlights-copa-america-left-half h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #0A0826;
+}
+
+.highlights-copa-america-left-half p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin-bottom: 18px;
+    padding-right: 145px;
+}
+
+.highlights-copa-america-left-half i {
+    margin-left: 8px;
+}
+
+.highlights-copa-america-right-half {
+    padding-left: 10px;
+}
+
+.highlights-copa-america-right-half img {
+    width: 567px;
+    height: 427px;
+}
+
+
+/* highlights copa america-2021 part end */
+
+
+/* the latest part start */
+
+#the-latest {
+    display: flex;
+    justify-content: center;
+}
+
+#the-latest .latest-title {
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+
+#the-latest .latest-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#the-latest .latest-content .latest-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 20px;
+}
+
+#the-latest .latest-content .latest-item .latest-item-image img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+#the-latest .latest-content .latest-item .latest-item-text {
+    padding-left: 30px;
+    padding-top: 2%;
+}
+
+#the-latest .latest-content .latest-item .latest-item-text hr {
+    width: 75%;
+    border: 1px solid #bcb9f3;
+    margin-top: 2%;
+}
+
+#the-latest .latest-content .latest-item .latest-item-text a {
+    text-decoration: none;
+}
+
+#the-latest .latest-content .latest-item .latest-item-text a h4 {
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #2D25A0;
+}
+
+
+/* the latest part end */
+
+
+/* match part start */
+
+#match {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #2D25A0, #7a75c5, #1d1861);
+}
+
+#match .match-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 70px;
+}
+
+.match-content h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#match .match-content video {
+    width: 60%;
+    height: 400px;
+    border-radius: 10px;
+    border: 5px solid #0A0826;
+}
+
+
+/* match part end */
+
+
+/* footer part start */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+footer .footer-content .footer-logo-part {
+    width: 484px;
+    height: 110px;
+}
+
+footer .footer-content .footer-logo-part img {
+    width: 100%;
+    height: 100%;
+}
+
+footer .footer-content .footer-social-link-part i {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: #969BAB;
+    margin-right: 12px;
+    margin-top: 20px;
+}
+
+footer .footer-content .footer-copy-right-part p {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000;
+    margin-top: 25px;
+    margin-bottom: 65px;
+}
+
+
+/* footer part end */
+
+
+/* ============================
+        Media queries start 
+===============================*/
+
+
+/* media queries for mobile device */
+
+@media only screen and (min-width:360px) and (max-width:688px) {
+    /* header part start */
+    header .navigation nav .fa-bars {
+        display: block;
+        font-size: 22px;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        line-height: 24px;
+        color: #fff;
+        margin-top: 7px;
+        cursor: pointer;
+    }
+    header .navigation nav {
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+    header .navigation nav .menu-items {
+        display: none;
+    }
+    header .navigation nav .login-signup .btn {
+        padding: 5px 15px;
+    }
+    /* header part end */
+    /* banner part start */
+    .banner-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-bottom: -50px;
+        margin-top: -10px;
+    }
+    .banner-content-left-half {
+        width: 100%;
+        text-align: left;
+        padding-left: 5%;
+        padding-top: 0px;
+    }
+    .banner-content-left-half h1 {
+        font-size: 36px;
+        line-height: 50px;
+        font-weight: 700;
+    }
+    .banner-content-right-half {
+        text-align: center;
+        margin-top: -90px;
+        margin-bottom: 0px;
+    }
+    .banner-content-right-half img {
+        width: 90%;
+    }
+    .banner-content-right-half:hover img {
+        transform: skew(-5deg);
+    }
+    /* banner part end */
+    /* players part start */
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-gap: 30px;
+        margin-top: -20px;
+        padding-bottom: 0;
+    }
+    .players .player {
+        padding: 15px 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    /* players part end */
+    /* highlights copa america-2021 part start */
+    .highlights-copa-america-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-top: -60px;
+        margin-bottom: -130px;
+    }
+    .highlights-copa-america-left-half {
+        padding: 0 15px;
+    }
+    .highlights-copa-america-left-half h2 {
+        font-size: 30px;
+        line-height: 40px;
+        border-bottom: 2px solid #2D25A0;
+        margin-bottom: 10px;
+    }
+    .highlights-copa-america-left-half p {
+        margin-bottom: 18px;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    .highlights-copa-america-right-half {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .highlights-copa-america-right-half img {
+        width: 95%;
+        height: 248px;
+    }
+    /* highlights copa america-2021 part end */
+    /* the latest part start */
+    #the-latest .latest-content h3 {
+        border-bottom: 2px solid #2D25A0;
+    }
+    #the-latest .latest-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: -35px;
+    }
+    #the-latest .latest-content .latest-item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-bottom: -50px;
+    }
+    #the-latest .latest-content .latest-item .latest-item-image img {
+        width: 100%;
+        height: 200px;
+    }
+    #the-latest .latest-content .latest-item .latest-item-text a h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    #the-latest .latest-content .latest-item .latest-item-text p {
+        padding-left: 0;
+        font-size: 14px;
+    }
+    /* the latest part end */
+    /* match part start */
+    #match {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to bottom, #2D25A0, #7a75c5, #1d1861);
+    }
+    #match .match-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 80px;
+        padding-top: 70px;
+    }
+    .match-content h2 {
+        font-size: 36px;
+        line-height: 46px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    #match .match-content video {
+        width: 60%;
+        height: 400px;
+        border-radius: 10px;
+        border: 5px solid #0A0826;
+    }
+    /* match part end */
+    /* footer part start */
+    footer .footer-content .footer-logo-part {
+        width: 80%;
+        height: 110px;
+    }
+    footer .footer-content .footer-copy-right-part p {
+        padding-bottom: 140px;
+    }
+    /* footer part end */
+}
+
+
+/* media queries for tablets */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    /* header part start */
+    header .navigation nav .fa-bars {
+        display: block;
+        font-size: 22px;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        line-height: 24px;
+        color: #fff;
+        margin-top: 7px;
+    }
+    header .navigation nav {
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+    header .navigation nav .menu-items {
+        display: none;
+    }
+    /* header part end */
+    /* banner part start */
+    .banner-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-bottom: -50px;
+        margin-top: -70px;
+    }
+    .banner-content-left-half {
+        width: 100%;
+        text-align: left;
+        padding-left: 5%;
+    }
+    .banner-content-right-half {
+        text-align: center;
+    }
+    .banner-content-right-half img {
+        width: 90%;
+    }
+    /* banner part end */
+    /* players part start */
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 30px;
+        margin-top: -20px;
+        padding-bottom: 0;
+    }
+    .players .player {
+        padding: 15px 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    /* players part end */
+    /* highlights copa america-2021 part start */
+    .highlights-copa-america-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-top: -60px;
+        margin-bottom: -130px;
+    }
+    .highlights-copa-america-left-half {
+        padding: 0 15px;
+    }
+    .highlights-copa-america-left-half h2 {
+        font-size: 30px;
+        line-height: 40px;
+        border-bottom: 2px solid #2D25A0;
+        margin-bottom: 10px;
+    }
+    .highlights-copa-america-left-half p {
+        margin-bottom: 18px;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    .highlights-copa-america-right-half {
+        width: 100%;
+        margin-top: -30px;
+    }
+    .highlights-copa-america-right-half img {
+        width: 97%;
+        height: 350px;
+    }
+    /* highlights copa america-2021 part end */
+    /* the latest part start */
+    #the-latest .latest-content h3 {
+        border-bottom: 2px solid #2D25A0;
+    }
+    #the-latest .latest-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: -35px;
+    }
+    /* the latest part end */
+    /* footer part start */
+    footer .footer-content .footer-copy-right-part p {
+        padding-bottom: 100px;
+    }
+    /* footer part end */
+}
+
+
+/* ============================
+        Media queries end 
+===============================*/
